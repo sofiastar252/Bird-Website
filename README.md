@@ -33,7 +33,7 @@ Finally, there’s a quiz on the bottom of the page, where the user can answer a
     * It triggers a GET request to the backend server (app.js) at /api/bird-sounds.
     * The backend processes this request and responds with JSON data containing an array of bird sounds, each object in the array including information such as species, region, and audio file paths.
     * App.js receives this response data containing the bird sounds array.
-    * Once App.js receives the bird sounds array from the backend, it maps over this array to render each bird sound as a list item (<li>).
+    * Once App.js receives the bird sounds array from the backend, it maps over this array to render each bird sound as a list item.
     * For each bird sound, it renders an AudioPlayer component passing the audio file path (src) as a prop to the AudioPlayer.
     * The AudioPlayer component receives the audio file path (src) as a prop from App.js.
     * When the user interacts with the UI (such as clicking play or pause), the AudioPlayer component loads and plays the corresponding audio file.
