@@ -1,0 +1,59 @@
+.fun-facts-form {
+  margin: 150px auto 100px; 
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center; /* Center text horizontally */
+}
+
+.fun-facts-form h2 {
+  margin-bottom: 10px;
+}
+
+.fun-facts-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fun-facts-form input[type='text'],
+.fun-facts-form button {
+  width: 100%;
+  max-width: 300px; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.fun-facts-form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fun-facts-form button:hover {
+  background-color: #45a049;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .fun-facts-form input[type='text'],
+  .fun-facts-form button {
+    width: 100%;
+    max-width: none; 
+    min-width: 100px;
+    margin-top: 10px;
+  }
+}
